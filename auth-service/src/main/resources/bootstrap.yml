@@ -4,6 +4,8 @@ spring:
   cloud:
     config:
       uri: http://config:8888
-      fail-fast: true
-      password: ${CONFIG_SERVICE_PASSWORD}
+      #fail-fast: true
+      fail-fast: false
+      #password: ${CONFIG_SERVICE_PASSWORD}
+      password: 8232f1a6-b706-45ff-bfa6-a667ed2f8098
       username: user
